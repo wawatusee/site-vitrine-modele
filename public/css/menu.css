@@ -1,0 +1,63 @@
+  /*MENUS*/
+/**********************/
+  /*mainMenu*/
+/**********************/
+.responsiveMenu {
+    overflow: hidden;
+    background-color: var(--first-color);
+  }
+  
+  .responsiveMenu a {
+    float: left;
+    display: block;
+    color: var(--main-clear-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .responsiveMenu a:hover {
+    background-color:var(--main-clear-color);
+    color: var(--first-color);
+    text-decoration: underline;
+  }
+  
+  .responsiveMenu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .responsiveMenu .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .responsiveMenu a:not(:first-child) {display: none;}
+    .responsiveMenu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .responsiveMenu.responsive {position: relative;}
+    .responsiveMenu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .responsiveMenu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  /*Texte information*/
+  .information{
+    padding: var(--content-padding);
+    background-color: var(--main-clear-color);
+  }
+    /*End mainMENUS*/
+/**********************/

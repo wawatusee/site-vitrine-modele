@@ -1,0 +1,32 @@
+/*Reset all */
+* {
+    margin: 0;
+    padding: 0;
+    }
+/*Communs disposition values*/
+:root{
+--standartspace:0.9em;
+--content-padding:5px;
+}
+/*Communs Colors images*/
+:root{
+    --main-bg-color:#333;
+    --main-clear-color:#e7e7e7;
+    --first-color:#ea9a4a;
+    --grey-clear-color:#a8a9ad;
+    --pink-color:#c73237;
+    --blue-color:#56b4b7;
+    --green-color:#87b748;
+    --rs-bckgrnd-img:url("../img/deco/logo-rs_30px.png");
+}
+/*Fonts*/
+@font-face{
+    font-family:'myFirstFont';
+    src:url("./fonts/lane.narrow.ttf");
+}
+/*Use this font with this line => font-family: myFirstFont;*/
+@font-face{
+    font-family:"myTitleFont";
+    src:url("./fonts/lane.narrow.ttf");
+}
+/*Use this font with this line => font-family: myTitleFont;*/

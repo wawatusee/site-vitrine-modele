@@ -1,0 +1,26 @@
+  /*Contacts*/
+  #contacts{
+    margin: 50px 50px 0 50px;
+  }
+  .contacts{
+    min-height: 40vH;
+    max-width: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: black solid 0.5px;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+  .presentation>span{
+    margin-left: 5px;
+  }
+  /*end Contacts*/
+  /**********************/

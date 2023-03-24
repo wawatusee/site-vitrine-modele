@@ -1,0 +1,67 @@
+/*Footer*/
+footer{
+    color:var(--main-clear-color);
+  }
+/*footerNav*/
+#sitemap{
+background-color:var(--main-clear-color);
+margin-bottom: 5px ;
+}
+#sitemap h2,#sitemap h3{
+color: white;
+}
+.footerNav{
+background-color:var(--first-color);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: var(--standartspace);
+}
+.navfooterbloc{
+margin-bottom: var(--standartspace);
+}
+.navfooterbloc a{
+display: block;
+text-decoration: none;
+color: var(--main-clear-color);
+/**/
+}
+.navfooterbloc a:hover{
+text-decoration: underline;
+color: var(--pink-color);
+}
+/*Block nav rs*/
+.nav-rs{
+    background-color:var(--main-clear-color);
+    display: flex;
+    justify-content:center;
+  }
+  .nav-rs a{
+    display: inline-block;
+  }
+  .rs{
+  height: 30px;
+  width: 30px;
+  background-image: url("../img/deco/logo-rs_30px.png");
+  background-position-y:0;
+  margin: var(--standartspace);
+  }
+  .rs:hover{
+    background-position-y:-30px;
+    }
+  .facebook{
+  background-position-x:0;
+  }
+  .instagram{
+  background-position-x:-30px;
+  }
+  .youtube{
+    background-position-x:-90px;
+    }
+  .flickr{
+  background-position-x:-150px;
+  }
+  /*End RSmenu*/
+  /**********************/
+      /* end footerNav*/
+  /**********************/

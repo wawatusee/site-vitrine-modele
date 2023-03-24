@@ -1,0 +1,33 @@
+  /*Header*/
+  header{
+    background-color: var(--first-color);
+    color: var(--main-clear-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+  }
+  header H1, header p{
+    text-align: center;
+  }
+  header H1{
+    font-family: "myTitleFont",Times, Times New Roman, serif;
+  }
+  .logo{
+    margin:0 8px 0  8px;
+    height: 90px;
+  }
+  h1>span{
+    display: block;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 0.7em;
+    font-family: "comfortaa",Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media only screen and (max-width: 600px){
+    .logo{display:none;}
+  }
+
+  /*End header*/
+/**********************/
