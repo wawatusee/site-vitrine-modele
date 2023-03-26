@@ -2,4 +2,44 @@ h2{
     background-color: var(--main-clear-color);
     color: var(--first-color);
     font-family: "myTitleFont";
+    text-align: center;
 }
+/*SERVICES*/
+.services{
+    display: flex;
+   flex-direction: column;
+  }
+  .services p{
+    max-width: 80%;
+    align-self: center;
+    text-align: center;
+  }
+  /*Cards*/
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    align-self: center;
+    justify-content: space-around;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    min-width: 150px;
+  }
+  
+  .card img {
+    width: 80px;
+    align-self: center;
+    align-items: baseline;
+  
+  }
+  .card p{
+    max-width: 350px;
+    text-align: center;
+  }
+  /*End SERVICES*/

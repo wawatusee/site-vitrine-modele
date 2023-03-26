@@ -10,7 +10,7 @@
                 <header>
                     <h3>A short heading</h3>
                 </header>    
-                <img src="img/ampoule-nb.svg" alt="dessin ampoule">
+                <img src="img/deco/ampoule-nb.svg" alt="dessin ampoule">
                 <div class="content">
                     <p>Description of the service Idea.</p>
                 </div>   
@@ -19,7 +19,7 @@
                 <header>
                     <h3>A short heading</h3>
                 </header>    
-                <img src="img/apn.svg" alt="camera">
+                <img src="img/deco/apn.svg" alt="camera">
                 <div class="content">
                     <p>Description of the service Camera.</p>
                 </div>   
@@ -28,7 +28,7 @@
                 <header>
                     <h3>A short heading</h3>
                 </header>    
-                <img src="img/stylo.svg" alt="drawn pen">
+                <img src="img/deco/stylo.svg" alt="drawn pen">
                 <div class="content">
                     <p>Description of the service Creation or design.</p>
                 </div>   
