@@ -1,13 +1,19 @@
 <?php
 /**
- * @author Kievu 
- *@param $srcJson A string wich define the url of the json file wich feed this datas 
- *
- */
+* @author Kievu
+*Class MenusModel
+*Permet d'importer un fichier au format json et de renvoyer son contenu sous forme de tableau
+*/
 class MenusModel{
+    /**
+     * @var string chemin du fichier json qui va être traité 
+     */
     private $srcJson;
+     /**
+     * @var array valeur de php du fichier json importé
+     */
     private $menus;
-    private $types;
+   // private $types;
     public function __construct(string $srcJson){
         $this->srcJson=$srcJson;
         $this->menus=json_decode(file_get_contents($srcJson));

@@ -17,12 +17,12 @@
 			"titre":"Tournée"
 		},
 		{
-			"page":"catalogue",
-			"titre":"Catalogue"
-		},
-		{
 			"page":"services",
 			"titre":"Services"
+		},
+		{
+			"page":"contact",
+			"titre":"Contacts"
 		}
 	],
 	"RS_menu":[
