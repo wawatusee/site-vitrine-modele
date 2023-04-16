@@ -3,18 +3,23 @@
     <?php
 //CONTROLEUR CENTRAL
     //$pageArray charge le tableau déclaré dans config.php,
-    //Ce tableau est utilisé pour réaliser le menu(view_menu.php)
+    //Ce tableau comprend toutes les pages du site est utilisé pour réaliser le menu(view_menu.php)
     $pagesArray = PAGE_ARRAY;
+    //On définit le premier nom de page comme page par défaut du site
+    $defaultPage=$pagesDuMenus[0];
+    echo $defaultPage;
     if (isset($_GET["page"])) {
     $page = $_GET["page"];
     $titre=$page;
         if ( in_array($page, $pagesArray) ) {
         require_once '../inc/pages/' . $page . '.php';
         } else {
-        require_once '../inc/pages/accueil.php';
+        //si la page reçue en paramètre d'url ne fait pas partie des pages officielles du site
+        require_once '../inc/pages/'.$defaultPage.'.php';
         }
     } else {
-        require_once '../inc/pages/accueil.php';
+        //Si on a pas recu de variable get, alors on renvoit sur la page par défaut du site
+        require_once '../inc/pages/'.$defaultPage.'.php';
     }
     ?>
 <?php else: ?>

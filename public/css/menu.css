@@ -6,7 +6,9 @@
     overflow: hidden;
     background-color: var(--first-color);
   }
-  
+  .responsiveMenu{
+    font-family: "myTitleFont",Times, Times New Roman, serif;
+  }
   .responsiveMenu a {
     float: left;
     display: block;
@@ -24,7 +26,7 @@
   }
   
   .responsiveMenu a.active {
-    background-color: #04AA6D;
+    background-color: var(--blue-color);
     color: white;
   }
   

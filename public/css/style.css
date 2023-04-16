@@ -10,8 +10,8 @@
 }
 /*Communs Colors images*/
 :root{
-    --main-bg-color:#333;
-    --main-clear-color:#e7e7e7;
+    --main-dark-color:#333;
+    --main-clear-color:#f5F5F5;
     --first-color:#ea9a4a;
     --grey-clear-color:#a8a9ad;
     --pink-color:#c73237;
@@ -30,3 +30,6 @@
     src:url("./fonts/lane.narrow.ttf");
 }
 /*Use this font with this line => font-family: myTitleFont;*/
+body{
+    font-family: "myFirstFont";
+}

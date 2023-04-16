@@ -2,14 +2,24 @@
 footer{
     color:var(--main-clear-color);
   }
+  footer{
+    font-family: "myFirstFont",Times, Times New Roman, serif;
+  }
+  footer>h2{
+    color: var(--main-dark-color);
+    font-family:"myTitleFont";
+  }
 /*footerNav*/
 #sitemap{
 background-color:var(--main-clear-color);
 margin-bottom: 5px ;
 }
-#sitemap h2,#sitemap h3{
+
+#sitemap h3{
 color: white;
+font-family: "myTitleFont";
 }
+
 .footerNav{
 background-color:var(--first-color);
 display: flex;
@@ -30,7 +40,7 @@ color: var(--main-clear-color);
 text-decoration: underline;
 color: var(--pink-color);
 }
-/*Block nav rs*/
+/*Block  rsMenu*/
 .nav-rs{
     background-color:var(--main-clear-color);
     display: flex;
